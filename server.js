@@ -3,7 +3,7 @@ var express = require("express");
 var app = express();
 var path = require("path");
 var bodyParser = require("body-parser");
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 3000;
 
 // body parser to handle midway data parsing
 app.use(bodyParser.urlencoded({ extended: true }));
